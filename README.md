@@ -43,5 +43,5 @@ Este projeto é um simulador do processador MIPS, implementado em Python e com u
 3. Execute o simulador via terminal com:
 
    ```bash
-   python mips_simulator.py
+   python SimuladorMips.py
    ```
