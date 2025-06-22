@@ -20,12 +20,14 @@ Este projeto é um simulador do processador MIPS, implementado em Python e com u
 2. **img_mips2.png**  
    Demonstração da leitura do código binário, com destaque nos registradores utilizados em cada operação.
 
-   ![img_mips2](img_mips2.png)
+   ![image](https://github.com/user-attachments/assets/05b9033b-5a99-4c4f-b645-747f60643f7b)
+
 
 3. **img_mips3.png**  
    Exemplo da conversão completa do binário para código assembly.
 
-   ![img_mips3](img_mips3.png)
+   ![image](https://github.com/user-attachments/assets/8f5774e0-d46e-48af-b4cc-482e120a3c10)
+
 
 ## Como executar o simulador
 
