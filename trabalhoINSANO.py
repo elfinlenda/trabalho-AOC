@@ -277,9 +277,6 @@ class MIPSSimulator(tk.Tk):
         
         # Aba dos registradores
         self.create_register_tab()
-        
-        # Aba da memória (opcional)
-        self.create_memory_tab()
     
     def create_code_tab(self):
         """Cria a aba de visualização do código binário"""
@@ -392,17 +389,6 @@ class MIPSSimulator(tk.Tk):
                                 width=12)
             lbl_value.pack(side=tk.LEFT)
             self.register_labels[reg] = lbl_value
-    
-    def create_memory_tab(self):
-        """Cria a aba de visualização da memória (opcional)"""
-        memory_frame = ttk.Frame(self.notebook)
-        self.notebook.add(memory_frame, text='💾 Memória')
-        
-        # Adicione aqui a implementação da visualização da memória
-        ttk.Label(memory_frame, 
-                 text="Visualização da Memória (implementação futura)",
-                 font=('Segoe UI', 10),
-                 foreground=self.colors['text_dark']).pack(pady=20)
     
     def create_info_panel(self):
         """Cria o painel de informações na parte inferior"""
