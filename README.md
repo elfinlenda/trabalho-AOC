@@ -14,7 +14,7 @@ Este projeto é um simulador do processador MIPS, implementado em Python e com u
 1. **img_mips1.png**  
    Tela principal da aplicação, com tradução para assembly e visualização dos registradores. Também permite carregar arquivos, executar instruções uma por uma ou de forma contínua.
 
-![image](https://github.com/user-attachments/assets/2639fc59-d055-46d5-b034-f1d68d22d997)
+![image](sandbox:/mnt/data/6675c1e0-dead-4d9e-b61c-f813530134a0.png)
 
 
 2. **img_mips2.png**  
